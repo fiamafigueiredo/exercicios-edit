@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(10, 10, 10);
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    gap: 24px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 0.5fr);
+    padding: 24px;
+}
+
+.board {
+    background: rgba(20, 20, 20);
+    aspect-ratio: 1;
+    border: 1px solid rgba(40, 40, 40);
+    padding: 12px;
+    display: flex;
+}
+
+div {
+    border-radius: 8px;
+}
+
+.item {
+    height: 100%;
+    width: 10%;
+}
+
+
+.container-flex {
+    justify-content: space-between;
+}
+
+.item-2 {
+    height: 50%;
+    width: 10%;
+}
+
+.container-flex-b {
+    justify-content: space-around;
+}
+
+.item-2:nth-child(2) {
+    align-self: flex-end;
+}
+
+
+.container-flex-c {
+    justify-content: space-around;
+}
+
+.item-4 {
+    height: 10%;
+    width: 10%;
+}
+
+.container-flex-e {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
+}
+.item-5 {
+    height: 25%;
+    width: 100%;
+}
+
+.item-6{
+    height: 70%;
+    width: 48%;
+}
+
+.item-7 {
+    height: 100%;
+    width: 27%;
+}
+
+.item-grow {
+    flex: 0 0 70%;
+}
+
+.container-flex-g{
+    flex-direction: column;
+    gap: 2%;
+}
+
+.container-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap:2%;
+
+}
+.item-10 {
+    height: 8%;
+    width: 30%;
+}
+
+
+
+.item-8 {
+    height: 30%;
+    width: 100%;
+}
+
+
+/* BG-colors */
+.bg-gray {
+    background: #fafafa;
+}
+
+.bg-blue {
+    background: #6979f8;
+}
+
+.bg-red {
+    background: #ff647c;
+}
+
+.bg-orange {
+    background: #ffa26b;
+}
+
+.bg-green {
+    background: #00c48c;
+    
+}
+
+.bg-purple {
+    background: #be52f2;
+}
+
+.bg-pink {
+    background: #fbe4e8;
+}
